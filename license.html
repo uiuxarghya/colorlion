@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Colorlion - Color Converter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords"
+        content="colorlion, Colour Converter, color converter">
+    <meta name="Description"
+        content="Colorlion is a free tool to convert color codes into different color code formats">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/lib/main.css">
+
+
+
+    <style>
+        .resultStrings {
+            font-family: "Poppins", Courier New, Courier, monospace;
+            font-size: 17px;
+        }
+
+        #name01,
+        #hex01,
+        #rgb01,
+        #hsl01,
+        #hwb01,
+        #cmyk01,
+        #ncol01 {
+            white-space: nowrap;
+            background-color: #f9f9f9;
+            background-color: #ffffff;
+            border: 2px solid #d3d3d3;
+            padding-left: 4px;
+        }
+
+        #helpname01,
+        #helphex01,
+        #helprgb01,
+        #helphsl01,
+        #helphwb01,
+        #helpcmyk01,
+        #helpncol01,
+        #helpasterix {
+            width: 60px;
+            color: #757575;
+            font-style: italic;
+        }
+
+        #behindresult01 {
+            background-image: url(img_bg_eyeicon.png), url(img_bg_transparent.gif);
+            background-repeat: no-repeat, repeat;
+            background-position: center, top left;
+            background-color: #ffffff;
+        }
+
+        #resultTable {
+            border-collapse: separate;
+            border-spacing: 3px;
+            width: 100%;
+        }
+
+        /*input[type=search]::-webkit-search-cancel-button{-webkit-appearance:searchfield-cancel-button;}*/
+    </style>
+    <script src="/lib/colorlion.js"></script>
+</head>
+
+<body>
+
+    <div class="lion-bar lion-card-2"
+        style="position: relative;z-index: 4;font-size: 18px;background-color: white;color:#282A35;padding-left:12px;padding-right:16px;font-family: 'Poppins', sans-serif;">
+        <a href="/" class="lion-bar-item lion-button lion-hover-none lion-left lion-padding-16" title="Home">
+            <img src="assets/logo.svg">
+        </a>
+        <div class="lion-right lion-padding-16">
+            <a class="lion-bar-item lion-button bar-item-hover lion-right lion-hide-small barex"
+                style="width:140px;border-radius:5px;margin-right:15px" href="/" target="_blank"
+                title="GitHub">GitHub</a>
+        </div>
+    </div>
+
+
+    <div class='lion-main lion-light-grey' style='margin: 20px 220px 10px 220px;'>
+        <div class='lion-white'>
+            <div id='main'>
+                <h1><b>License</b></h1>
+                <br>
+                <div class="lion-container lion-padding-large"
+                    style="background-color:#f1f1f1;border-radius: 10px;border:1px solid #d3d3d3;">
+                    <div class="lion-row">
+                        <div class="">
+                            <h2>MIT License</h2>
+                            <p><span class="lion-text-grey">
+                                    Copyright &copy
+                                    <script type="text/javascript"> document.write(new Date().getFullYear());</script>
+                                    by Arghya Ghosh.
+                                    <br><br>
+                                    Permission is hereby granted, free of charge, to any person obtaining a copy
+                                    of this software and associated documentation files (the "Software"), to deal
+                                    in the Software without restriction, including without limitation the rights
+                                    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                                    copies of the Software, and to permit persons to whom the Software is
+                                    furnished to do so, subject to the following conditions:
+                                    <br><br>
+                                    The above copyright notice and this permission notice shall be included in all
+                                    copies or substantial portions of the Software.
+                                    <br><br>
+                                    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                                    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                                    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                                    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                                    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                                    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                                    SOFTWARE.
+                                </span></p>
+                        </div>
+
+                    </div>
+                    <div class="lion-row">
+                        <div class="lion-col">
+                            <div id="linktocp"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <div id="footer" class="footer lion-container lion-white">
+            <div class="lion-center lion-small lion-opacity">
+                Colorlion is a free tool to convert color codes into different color code formats.
+                It is released under the <a href="license.html">MIT License</a>.
+                <br><br>
+                Copyright &copy
+                <script type="text/javascript"> document.write(new Date().getFullYear());</script>
+                by Arghya Ghosh. All Rights Reserved.
+            </div>
+            <br />
+            <div class="lion-center lion-small">
+                <a href="/">
+                    <img src="assets/logom.svg">
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>  
+<![endif]-->
+</body>
+
+</html>
